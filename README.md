@@ -6,12 +6,12 @@ Follow the steps below to add a new token：
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
-      "symbol": "WIN",
-      "name": "WINkLink",
+      "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "symbol": "WIN",token
+      "name": "WINkLink",usdt
       "decimals": 6,
       "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
-      "homepage": "https://winklink.org/",
+      "homepage": "https://tronscan.org/",
       "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
       "existingMarkets": [
           {
@@ -45,6 +45,35 @@ Follow the steps below to add a new token：
 * `homepage`[Required]: the home page of your token.
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
 * `existingMarkets`[Required]: where to trade with your token.
-3) Submit PR with the changed JSON file.
-
-
+  {
+      "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "symbol": "WIN","WIN/token
+      "name": "WINkLink",usdt
+      "decimals": 6,
+      "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
+      "homepage": "https://tronscan.org/",
+      "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
+      "existingMarkets": [coinmar ketcap
+          {
+              "source": "Binance",
+              "pairs": [
+                  "WIN/USDT",
+                  "WIN/BUSD",
+                  "WIN/BNB",
+                  "WIN/USDC"
+              ]
+          },
+          {
+              "source": "Poloniex",
+              "pairs": [
+                  "WIN/USDT"
+              ]
+          },
+          {
+              "source": "KuCoin",
+              "pairs": [
+                  "WIN/USDT"
+              ]
+          }
+    ]
+}
